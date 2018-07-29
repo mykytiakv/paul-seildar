@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../Fonts/CenturyGothic/CenturyGothic.eot');
+    src: url('../Fonts/CenturyGothic/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/CenturyGothic/CenturyGothic.woff2') format('woff2'),
+        url('../Fonts/CenturyGothic/CenturyGothic.woff') format('woff'),
+        url('../Fonts/CenturyGothic/CenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century Gothic Bold';
+    src: url('../Fonts/CenturyGothicBold/CenturyGothic-Bold.eot');
+    src: url('../Fonts/CenturyGothicBold/CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/CenturyGothicBold/CenturyGothic-Bold.woff2') format('woff2'),
+        url('../Fonts/CenturyGothicBold/CenturyGothic-Bold.woff') format('woff'),
+        url('../Fonts/CenturyGothicBold/CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    font-family: 'Century Gothic';
+    background-color: black;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    /*height: 600px;*/
+    background-color: #fff;
+    background: url('../images/headphones.png');
+    background-position-x: center;
+    background-size: cover;
+    color: #fff;
+}
+.main .container-fluid {
+    height: 100%;
+}
+.container-fluid {
+    padding-top: 6.8%;
+    padding-left: 5.36%;
+    padding-right: 5.36%;
+}
+.main-t {
+    font-family: 'Century Gothic Bold';
+}
+.main-t,
+.submain-t {
+    font-size: 3.75em;
+    font-size: 3.75em;
+    line-height: 1em;
+    padding-bottom: 22px;
+}
+.main p {
+    font-size: 1.5em;
+}
+.footer {
+    background-color: #000;
+    padding-top: 95px;
+    padding-bottom: 37px;
+    color: #fff;
+    font-size: 1.125em;
+    text-align: center;
+    font-family: 'Century Gothic';
+}
+.drop {
+    background: linear-gradient(to top, rgba(255,255,255,0.25), rgba(255,255,255,1)), url('../images/workplace.png');
+    background-size: cover;
+}
+.drop-main {
+    font-size: 3.125em;
+}
+.drop p {
+    font-size: 1.65em;
+    margin-bottom: 55px;
+}
+.drop input, 
+.drop textarea,
+.main-form input, 
+.main-form textarea  {
+    max-width: 322px;
+    margin: auto;
+    border-radius: 0;
+    border-bottom: 1px solid #DDD;
+    box-shadow: inset 0 0 7px 0px rgba(0,0,0,.25);
+}
+.drop input,
+.main-from input {
+    height: 50px;
+}
+.drop textarea,
+.main-form textarea {
+    resize: none;
+    height: 214px;
+}
+.drop button,
+.main-form button {
+    height: 50px;
+    width: 322px;
+    border-radius: 0;
+    background-color: #b5f4fa;
+    box-shadow: inset 0 0 2px 0px rgba(0,0,0,.05);
+    font-size: 1.25em;
+}
+h3 {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 2.25em;
+}
+.drop button:hover
+.main-form button:hover {
+    background-color: #9fe8ef;
+}
+.main-form input,
+.main-form textarea {
+    max-width: 450px;
+}
+.main-form button {
+    width: 450px;
+}
+.drop .container-fluid {
+    padding-top: 155px;
+    padding-bottom: 98px;
+}
+.fast-question {
+    background-color: white;
+}
+.fast-question .container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.fast-question p {
+    font-size: 2em;
+}
+.fast-question button {
+    height: 50px;
+    width: 155px;
+    box-shadow: inset 0 0 10px 0px rgba(0,0,0,.25);
+    border-radius: 0;
+    font-size: 1.25em;
+}
+.fast-question button:first-child {
+    background-color: #ec9a9a;
+}
+.fast-question button:first-child:hover {
+    background-color: #ef8f8f;    
+}
+.fast-question button:last-child {
+    background-color: #b8f89c;    
+}
+.fast-question button:last-child:hover {
+    background-color: #9eec7b;
+}
+.fast-btns {
+    max-width: 500px;
+    margin-top: 35px;
+}
+.music {
+    color: white;
+    background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,01)), url('../images/keyboard.png');
+    background-size: cover;
+}
+.music form {
+    position: relative;
+}
+.music p {
+    font-size: 0.75em;
+    margin-top: 20px;
+}
+.music-submain-t {
+    font-size: 2.5em;
+    margin-top: 170px;
+    z-index: 10;
+}
+.music input {
+    border: none;
+    z-index: 10;
+    margin: auto;
+    height: 70px;
+    background-color: #000;
+    max-width: 710px;
+    box-shadow: inset 0 0 20px 0px rgb(134, 134, 134);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+.music input:active,
+.music input:focus {
+    background-color: #000;
+}
+#triangle-bottomleft {
+    width: 50%;
+    height: 0;
+    border-bottom: 500px solid white; 
+    border-right: 500px solid transparent;  
+}
+
+#triangle-bottomright {
+    width: 50%;
+    height: 0;
+    border-bottom: 500px solid white; 
+    border-left: 500px solid transparent;
+}
+.main-music {
+    font-size: 2.8em;
+    margin-bottom: 40px;
+}
+.stories {
+    background-color: #000;
+    color: white;
+}
+.stories p {
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.circle {
+    background-color: white;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin-right: 27px;
+}
+.stories {
+    background: url('../images/micro.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: contain;
+}
+.stories .container-fluid,
+.paul-story .container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.paul-story .container-fluid:first-child .main-music {
+    line-height: 1em;
+    margin-bottom: 0;
+}
+.paul-story .container-fluid {
+    z-index: 10;
+    position: relative;
+}
+.story-content > div:first-child {
+    margin: auto;
+}
+.paul-story {
+    position: relative;
+    background: url('../images/tehnic.png');
+    background-size: cover;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.paul-story p {
+    font-size: 1.5em;
+}
+.p-1000 {
+    margin-bottom: 10px;
+    padding-left: 175px;
+}
+.p-r {
+    margin-top: 55px; 
+}
+.submain-t-paul {
+    font-size: 2.125em;
+    line-height: 1em;
+    padding-left: 190px;
+    margin-top: 5px;
+}
+.paul-story button,
+.main-btn button {
+    font-size: 1.25em;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 0;
+    width: 185px;
+    height: 68px;
+    color: white;
+    margin-top: 85px;
+}
+.main-btn {
+    margin-top: -170px;
+}
+.main-btn .container-fluid {
+    text-align: right;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.story-content > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+.story-bottom-gradient {
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.story-top-gradient {
+    background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
+    height: 500px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+.parags {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.parags p {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 50px;
+}
+.person-review {
+    margin-top: 95px;
+    font-size: 1.625em;
+}
+.person-review img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
