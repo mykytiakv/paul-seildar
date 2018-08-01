@@ -46,7 +46,6 @@ body {
 .main-t,
 .submain-t {
     font-size: 3.75em;
-    font-size: 3.75em;
     line-height: 1em;
     padding-bottom: 22px;
 }
@@ -65,6 +64,7 @@ body {
 .drop {
     background: linear-gradient(to top, rgba(255,255,255,0.25), rgba(255,255,255,1)), url('../images/workplace.png');
     background-size: cover;
+    margin-top: -1px;
 }
 .drop-main {
     font-size: 3.125em;
@@ -115,7 +115,16 @@ h3 {
     max-width: 450px;
 }
 .main-form button {
-    width: 450px;
+    width:100%;
+}
+.main-form .btn-div {
+    max-width: 450px;
+}
+.drop button {
+    width: 100%;
+}
+.drop .btn-div {
+    max-width: 322px;
 }
 .drop .container-fluid {
     padding-top: 155px;
@@ -123,6 +132,7 @@ h3 {
 }
 .fast-question {
     background-color: white;
+    margin-top: -1px;
 }
 .fast-question .container-fluid {
     padding-top: 100px;
@@ -324,4 +334,157 @@ h3 {
     width: 45px;
     height: 45px;
     border-radius: 100%;
+}
+@media (max-width: 1200px) {
+    .music input {
+        max-width: 580px;
+    }
+}
+@media (max-width: 1024px) {
+    .music input {
+        max-width: 50%;
+    }
+    .main {
+        height: 750px;
+    }
+}
+@media (max-width: 991px) {
+    iframe {
+        width: 85%;
+    }
+    .main-t,
+    .submain-t {
+        font-size: 3em;
+    }
+    .drop-main {
+        font-size: 2.75em;
+    }
+    .music-submain-t,
+    .main-music {
+        font-size: 2.5em;
+    }
+    .paul-story p {
+        font-size: 1.3em;
+    }
+    .submain-t-paul {
+        font-size: 1.75em;
+        padding-left: 160px;
+        margin-top: 10px;
+    }
+    .fast-question p {
+        font-size: 1.65em;
+    }
+    .drop p {
+        font-size: 1.5em;
+    }
+    .main {
+        height: 700px;
+    }
+    .main p,
+    .parags p {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    .drop .container-fluid {
+        padding-top: 75px;
+    }
+    .stories p {
+        font-size: 1.35em;
+    }
+}
+@media (max-width: 768px) {
+    iframe {
+        height: 380px;
+    }    
+    .main {
+        height: 550px;
+    }
+    .main-btn {
+        margin-top: -150px;
+    }
+    .music input {
+        max-width: 80%;
+        margin-bottom: 90px;
+    }
+    .music-submain-t {
+        margin-top: 120px;
+    }
+    .person-review {
+        font-size: 1.5em;
+        margin-top: 75px;
+    }
+    .story-content > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 767px) {
+    .story-content > div:first-child {
+        margin-bottom: 50px;
+    }
+    .stories .container-fluid, .paul-story .container-fluid {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .parags p {
+        margin-bottom: 20px;
+    }
+    .main-form {
+        padding-top: 50px;
+    }
+}
+@media (max-width: 500px) {
+    iframe {
+        height: 270px;
+    }   
+    h3 {
+        font-size: 1.5em;
+    }
+    .main p, .parags p {
+        font-size: 1.1em;
+    }
+    .main-t,
+    .submain-t {
+        font-size: 2em;
+    }
+    .drop-main {
+        font-size: 2em;
+    }
+    .music-submain-t,
+    .main-music {
+        font-size: 2em;
+    }    
+    .fast-question p {
+        font-size: 1.3em;
+    }
+    .drop p {
+        font-size: 1.25em;
+    }
+    .footer {
+        font-size: 1em;
+    }
+    .drop .container-fluid {
+        padding-top: 50px;
+    }
+    .fast-question button {
+        width: 135px;
+        font-size: 1.15em;
+    }
+    .music-submain-t {
+        margin-top: 100px;
+    }
+    .person-review,
+    .stories p {
+        font-size: 1.25em;
+    }
+    .paul-story p {
+        font-size: 1.25em;
+    }
+}
+@media (max-width: 360px) {
+    .main-t, .submain-t {
+        font-size: 1.9em;
+    }
 }
